@@ -263,15 +263,6 @@
                                                         <constraint firstAttribute="height" constant="50" id="pjc-9S-Gzk"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6r-DL-EYh">
-                                                    <rect key="frame" x="83" y="10" width="237" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="237" id="IV3-Qg-oef"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ap-c8-YBk">
                                                     <rect key="frame" x="83" y="70" width="507" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -297,6 +288,15 @@
                                                         <constraint firstAttribute="height" constant="25" id="Xt0-6T-jfv"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6r-DL-EYh">
+                                                    <rect key="frame" x="83" y="10" width="237" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="237" id="IV3-Qg-oef"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="4Nz-Qd-zTk" firstAttribute="leading" secondItem="nJn-SR-5dv" secondAttribute="trailing" constant="13" id="0Bn-xy-rQq"/>
