@@ -52,7 +52,7 @@
                                                           [self.messagesArray addObjectsFromArray:allMessages];
                                                           
                                                           [self.navigationItem setTitle:[NSString stringWithFormat:@"%@ %@ - %ld сообщений", self.post.firstName,
-                                                                                         self.post.lastName, [self.messagesArray count]]];
+                                                                                         self.post.lastName, (unsigned long)[self.messagesArray count]]];
 
                                                           [self.tableView reloadData];
                                                           
@@ -76,7 +76,7 @@
                                                           
         [self.navigationItem setTitle:[NSString stringWithFormat:@"%@ %@ - %ld сообщений", self.post.firstName,
                                                                                            self.post.lastName,
-                                                                                           [self.messagesArray count]]];
+                                                                                           (unsigned long)[self.messagesArray count]]];
         [self.messagesArray removeAllObjects];
         [self.messagesArray addObjectsFromArray:allMessages];
         

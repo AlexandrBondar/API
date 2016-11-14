@@ -143,8 +143,6 @@ static NSString* iosDevCourseGroupID = @"58860049";
                                                      
                                                      [self.postsArray addObjectsFromArray:posts];
                                                      
-                                                     //                                                 [self.tableView reloadData];
-                                                     
                                                      NSMutableArray* newPaths = [NSMutableArray array];
                                                      
                                                      for (int i = (int)([self.postsArray count]-[posts count]); i<[self.postsArray count]; i++) {

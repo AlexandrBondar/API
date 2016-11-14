@@ -28,7 +28,7 @@
 
 + (CGFloat) heightForCellWithText:(NSString*)text {
     
-    CGFloat offset = 10.f;
+    CGFloat offset = 93.f;
     
     UIFont* font = [UIFont systemFontOfSize:15.f];
     
@@ -45,7 +45,7 @@
                                 shadow,    NSShadowAttributeName,
                                 paragraph, NSParagraphStyleAttributeName, nil];
     
-    CGRect rect = [text boundingRectWithSize:CGSizeMake([UIApplication sharedApplication].keyWindow.frame.size.width - offset*2, CGFLOAT_MAX)
+    CGRect rect = [text boundingRectWithSize:CGSizeMake([UIApplication sharedApplication].keyWindow.frame.size.width - offset, CGFLOAT_MAX)
                                      options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
                                   attributes:attributes
                                      context:nil];
