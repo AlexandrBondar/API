@@ -202,6 +202,8 @@
 				5734A46A1DBF64E900AB5FF6 /* Models */,
 				5734A46B1DBF650D00AB5FF6 /* Views */,
 				5734A4681DBF64C700AB5FF6 /* Controllers */,
+				5701791D1DBF77980074DB1E /* ABServerManager.h */,
+				5701791E1DBF77980074DB1E /* ABServerManager.m */,
 				5734A4461DBF64AC00AB5FF6 /* Info.plist */,
 				5734A4351DBF64AC00AB5FF6 /* Supporting Files */,
 			);
@@ -258,8 +260,6 @@
 		5734A46A1DBF64E900AB5FF6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5701791D1DBF77980074DB1E /* ABServerManager.h */,
-				5701791E1DBF77980074DB1E /* ABServerManager.m */,
 				5746A1A61DC33D6A003E8539 /* ABServerObject.h */,
 				5746A1A71DC33D6A003E8539 /* ABServerObject.m */,
 				570179201DBF92100074DB1E /* ABAccessToken.h */,
